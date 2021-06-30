@@ -1,6 +1,7 @@
 smlss
 =====
-This is my build of dmenu. It is deployed by [smlss](https://git.smlavine.com/smlss).
+This is my build of dmenu. It is deployed by
+[smlss](https://git.smlavine.com/smlss).
 
 To contact me, Sebastian LaVine, send an email to <mail@smlavine.com>.
 
