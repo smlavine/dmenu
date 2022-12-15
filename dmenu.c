@@ -909,8 +909,8 @@ setup(void)
 
 		if (centered) {
 			mw = MIN(MAX(max_textw(), min_width), info[i].width);
-			x = info[i].x_org + ((info[i].width  - mw) / 2);
-			y = info[i].y_org + ((info[i].height - mh) / 2);
+			x = info[i].x_org + ((info[i].width  - mw) / 2) + dmx;
+			y = info[i].y_org + ((info[i].height - mh) / 2) + dmy;
 		} else {
 			x = info[i].x_org + dmx;
 			y = info[i].y_org + (topbar ? dmy : info[i].height - mh - dmy);
